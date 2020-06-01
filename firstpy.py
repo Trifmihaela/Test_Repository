@@ -43,4 +43,10 @@ for item in items:
 
         print(item)
 
+numbers = [2, 12, 17, 29, 33, 112]
+
+for number in numbers:
+        if item / 3 == 0:
+            print(number)
+
 
