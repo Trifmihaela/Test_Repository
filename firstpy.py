@@ -36,12 +36,11 @@ squares = [1, 7, 14, 21, 28, 35, 42]
 print(squares[-1])
 print(squares[0])
 
-lists = [1, 8, 16, 24, 32, 40, 48, 56, 72, 80]
+items = [1, 8, 16, 24, 32, 40, 48, 56, 72, 80]
 
-# for list in lists:
+for item in items:
+    if item % 2 == 0:
 
-# if list % 2 == 0:
-
-# print(list)
+        print(item)
 
 
