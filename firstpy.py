@@ -46,7 +46,7 @@ for item in items:
 numbers = [2, 12, 17, 29, 33, 112]
 
 for number in numbers:
-        if item / 3 == 0:
+        if number % 3 == 0:
             print(number)
 
 
